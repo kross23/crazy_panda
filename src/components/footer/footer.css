@@ -1,0 +1,9 @@
+/* //.center-block{
+margin: 0 auto;
+}; */
+
+a, .active{
+     border: solid 2px rgb(18, 21, 230);
+     border-radius: 4px;
+    
+}

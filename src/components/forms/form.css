@@ -1,0 +1,14 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    max-width:1000px;
+    margin: 30px auto;
+}
+table{
+    margin: 30px auto;
+}
+.theader{
+    cursor: pointer;
+}

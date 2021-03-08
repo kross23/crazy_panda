@@ -1,0 +1,11 @@
+   
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods: "GET"
+    Header set Access-Control-Allow-Methods: "POST" 
+    Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type"
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^http://localhost:3000/[nc]
+RewriteRule ^(.*)$ http://www.http://localhost:3000//$1 [r=301,nc]
+
